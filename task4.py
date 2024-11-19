@@ -23,3 +23,10 @@ You are not a VIP.
 """
 
 VIPNames = ("Guile","Blanka","Christine","Carol","Richard","Daniel","Chun-Li")
+
+name=input("Enter a username:")
+name=str(name)
+if name=="Guile" or name=="Blanka" or name=="Christine" or name=="Carol" or name=="Richard" or name=="Daniel" or name=="Chun-Li":
+    print("Hi {name}! You are a VIP!")
+else:
+    print("You are not a VIP.")
